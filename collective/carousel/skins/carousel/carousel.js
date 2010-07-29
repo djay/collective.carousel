@@ -51,7 +51,7 @@ jQuery(function($) {
         var setWidthCarousels = function() {
             // Set width of all carousel items so they wrap and have correct widths
             scrollable_width = $(scrollable).width();
-            //console.log('xxx');
+
             for (i=0; i<elems.length; i++) {   
                 $(elems[i]).css( {width: scrollable_width } );
             };
